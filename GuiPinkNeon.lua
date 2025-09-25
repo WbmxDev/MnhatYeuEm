@@ -5093,52 +5093,55 @@ local aa = {
         )
     end)
 
-    return {
-        Name               = "TuanAnhIOS",
-        Accent             = Color3.fromRGB(0, 178, 255),
-        TitleBarLine       = Color3.fromRGB(0, 128, 192),
-        AcrylicBorder      = Color3.fromRGB(0, 255, 220),
-        Text               = Color3.fromRGB(230, 250, 255),
+ return {
+    Name               = "TuanAnhIOS",
+    Accent             = Color3.fromRGB(255, 105, 180),
+    TitleBarLine       = Color3.fromRGB(255, 182, 193),
+    AcrylicBorder      = Color3.fromRGB(255, 192, 203),
+    Text               = Color3.fromRGB(255, 230, 240),
 
-        AcrylicMain        = Color3.fromRGB(5, 15, 25), -- nền xanh đen sâu
-        AcrylicGradient    = ColorSequence.new(Color3.fromRGB(0, 64, 128), Color3.fromRGB(0, 178, 255)),
-        AcrylicNoise       = 0.85,
+    AcrylicMain        = Color3.fromRGB(40, 5, 20),
+    AcrylicGradient    = ColorSequence.new(
+                            Color3.fromRGB(255, 105, 180),
+                            Color3.fromRGB(255, 182, 193)
+                        ),
+    AcrylicNoise       = 0.85,
 
-        Tab                = Color3.fromRGB(10, 25, 40),
-        Element            = Color3.fromRGB(8, 20, 35),
-        ElementBorder      = Color3.fromRGB(0, 178, 255),
-        InElementBorder    = Color3.fromRGB(0, 255, 220),
-        ElementTransparency= 0.85,
+    Tab                = Color3.fromRGB(60, 10, 30),
+    Element            = Color3.fromRGB(50, 5, 25),
+    ElementBorder      = Color3.fromRGB(255, 105, 180),
+    InElementBorder    = Color3.fromRGB(255, 192, 203),
+    ElementTransparency= 0.85,
 
-        ToggleSlider       = Color3.fromRGB(80, 130, 160),
-        ToggleToggled      = Color3.fromRGB(0, 178, 255),
-        SliderRail         = Color3.fromRGB(0, 102, 204),
+    ToggleSlider       = Color3.fromRGB(255, 182, 193),
+    ToggleToggled      = Color3.fromRGB(255, 105, 180),
+    SliderRail         = Color3.fromRGB(255, 160, 200),
 
-        DropdownFrame      = Color3.fromRGB(10, 25, 40),
-        DropdownHolder     = Color3.fromRGB(8, 20, 35),
-        DropdownBorder     = Color3.fromRGB(0, 178, 255),
-        DropdownOption     = Color3.fromRGB(0, 255, 220),
+    DropdownFrame      = Color3.fromRGB(60, 10, 30),
+    DropdownHolder     = Color3.fromRGB(50, 5, 25),
+    DropdownBorder     = Color3.fromRGB(255, 105, 180),
+    DropdownOption     = Color3.fromRGB(255, 182, 193),
 
-        Keybind            = Color3.fromRGB(0, 178, 255),
-        Input              = Color3.fromRGB(0, 102, 204),
-        InputFocused       = Color3.fromRGB(15, 35, 50),
-        InputIndicator     = Color3.fromRGB(0, 255, 220),
+    Keybind            = Color3.fromRGB(255, 105, 180),
+    Input              = Color3.fromRGB(255, 160, 200),
+    InputFocused       = Color3.fromRGB(70, 15, 35),
+    InputIndicator     = Color3.fromRGB(255, 182, 193),
 
-        Dialog             = Color3.fromRGB(10, 25, 40),
-        DialogHolder       = Color3.fromRGB(8, 20, 35),
-        DialogHolderLine   = Color3.fromRGB(5, 15, 25),
-        DialogButton       = Color3.fromRGB(0, 178, 255),
-        DialogButtonBorder = Color3.fromRGB(0, 255, 220),
-        DialogBorder       = Color3.fromRGB(0, 102, 204),
-        DialogInput        = Color3.fromRGB(8, 20, 35),
-        DialogInputLine    = Color3.fromRGB(0, 178, 255),
+    Dialog             = Color3.fromRGB(60, 10, 30),
+    DialogHolder       = Color3.fromRGB(50, 5, 25),
+    DialogHolderLine   = Color3.fromRGB(40, 5, 20),
+    DialogButton       = Color3.fromRGB(255, 105, 180),
+    DialogButtonBorder = Color3.fromRGB(255, 182, 193),
+    DialogBorder       = Color3.fromRGB(255, 160, 200),
+    DialogInput        = Color3.fromRGB(50, 5, 25),
+    DialogInputLine    = Color3.fromRGB(255, 105, 180),
 
-        SubText            = Color3.fromRGB(200, 240, 255),
-        Hover              = Color3.fromRGB(0, 255, 220),
-        HoverChange        = 0.1,
-    }
-end
+    SubText            = Color3.fromRGB(255, 220, 230),
+    Hover              = Color3.fromRGB(255, 182, 193),
+    HoverChange        = 0.1,
+ end
 }
+
 do
     local ab, ac, ad, ae, af, ag, ah, aj, c, e, f, g, h, i, j, k =
         task,
@@ -5394,50 +5397,3 @@ end
 
 -- Pink Theme Override
 
-return {
-    Name               = "TuanAnhIOS",
-    Accent             = Color3.fromRGB(255, 105, 180),
-    TitleBarLine       = Color3.fromRGB(255, 182, 193),
-    AcrylicBorder      = Color3.fromRGB(255, 192, 203),
-    Text               = Color3.fromRGB(255, 230, 240),
-
-    AcrylicMain        = Color3.fromRGB(40, 5, 20),
-    AcrylicGradient    = ColorSequence.new(
-                            Color3.fromRGB(255, 105, 180),
-                            Color3.fromRGB(255, 182, 193)
-                        ),
-    AcrylicNoise       = 0.85,
-
-    Tab                = Color3.fromRGB(60, 10, 30),
-    Element            = Color3.fromRGB(50, 5, 25),
-    ElementBorder      = Color3.fromRGB(255, 105, 180),
-    InElementBorder    = Color3.fromRGB(255, 192, 203),
-    ElementTransparency= 0.85,
-
-    ToggleSlider       = Color3.fromRGB(255, 182, 193),
-    ToggleToggled      = Color3.fromRGB(255, 105, 180),
-    SliderRail         = Color3.fromRGB(255, 160, 200),
-
-    DropdownFrame      = Color3.fromRGB(60, 10, 30),
-    DropdownHolder     = Color3.fromRGB(50, 5, 25),
-    DropdownBorder     = Color3.fromRGB(255, 105, 180),
-    DropdownOption     = Color3.fromRGB(255, 182, 193),
-
-    Keybind            = Color3.fromRGB(255, 105, 180),
-    Input              = Color3.fromRGB(255, 160, 200),
-    InputFocused       = Color3.fromRGB(70, 15, 35),
-    InputIndicator     = Color3.fromRGB(255, 182, 193),
-
-    Dialog             = Color3.fromRGB(60, 10, 30),
-    DialogHolder       = Color3.fromRGB(50, 5, 25),
-    DialogHolderLine   = Color3.fromRGB(40, 5, 20),
-    DialogButton       = Color3.fromRGB(255, 105, 180),
-    DialogButtonBorder = Color3.fromRGB(255, 182, 193),
-    DialogBorder       = Color3.fromRGB(255, 160, 200),
-    DialogInput        = Color3.fromRGB(50, 5, 25),
-    DialogInputLine    = Color3.fromRGB(255, 105, 180),
-
-    SubText            = Color3.fromRGB(255, 220, 230),
-    Hover              = Color3.fromRGB(255, 182, 193),
-    HoverChange        = 0.1,
-}
