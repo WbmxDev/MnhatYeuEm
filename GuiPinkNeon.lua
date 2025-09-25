@@ -5093,7 +5093,7 @@ local aa = {
         )
     end)
 
- return {
+  return {
     Name               = "TuanAnhIOS",
     Accent             = Color3.fromRGB(255, 105, 180),
     TitleBarLine       = Color3.fromRGB(255, 182, 193),
@@ -5139,9 +5139,9 @@ local aa = {
     SubText            = Color3.fromRGB(255, 220, 230),
     Hover              = Color3.fromRGB(255, 182, 193),
     HoverChange        = 0.1,
- end
 }
-
+end
+}
 do
     local ab, ac, ad, ae, af, ag, ah, aj, c, e, f, g, h, i, j, k =
         task,
@@ -5394,6 +5394,3 @@ do
         end
     end
 end
-
--- Pink Theme Override
-
